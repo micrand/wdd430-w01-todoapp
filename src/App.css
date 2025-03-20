@@ -1,11 +1,12 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
 body {
-  background: #333;
-  color: hsl(200, 100%, 90%);
+  background: #0c0c0c;
+  color: #FEDFED;
+  font-size: 1.25rem;
   max-width: 400px;
   padding: 1rem;
   margin: 0 auto;
@@ -24,10 +25,10 @@ body {
 }
 
 .btn {
-  background: hsl(200, 100%, 50%, 0.1);
-  border: 1px solid hsl(200, 100%, 50%);
+  background: hsl(200, 59%, 28%);;
+  border: 1px solid hsl(200, 72%, 43%);
   color: hsl(200, 100%, 50%);
-  padding: 0.25em 0.5em;
+  padding: 0.5em 0.5em;
   border-radius: 0.25em;
   cursor: pointer;
   outline: none;
@@ -40,8 +41,8 @@ body {
 
 .btn.btn-danger {
   background: hsl(0, 100%, 40%, 0.1);
-  border: 1px solid hsl(0, 100%, 40%);
-  color: hsl(0, 100%, 40%);
+  border: 1px solid hsl(20, 100%, 40%);
+  color: hsl(20, 100%, 40%);
 }
 
 .btn.btn-danger:hover,
@@ -51,10 +52,10 @@ body {
 
 .new-item-form input {
   outline: none;
-  border: 1px solid hsl(200, 100%, 40%);
-  background: hsl(200, 100%, 30%);
+  border: 1px solid hsl(254, 100%, 40%);
+  background: hsl(254, 100%, 30%);
   border-radius: 0.25em;
-  padding: 0.25em 0.5em;
+  padding: 0.50rem 0.5em;
   color: hsl(200, 100%, 90%);
 }
 
@@ -76,7 +77,7 @@ body {
 }
 
 .list li:has(input:checked) label {
-  color: hsl(200, 20%, 40%);
+  color: hsl(254, 25%, 45%);
 }
 
 .list {
